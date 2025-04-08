@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2020",                           // <-- bumped from es2017
+    "lib": ["es2020", "dom"],                     // <-- includes Intl + async iterables
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "jsx": "react",
+    "declaration": true,
+    "sourceMap": true,
+    "rootDir": "src",
+    "outDir": "lib",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "noEmitOnError": true,
+    "types": ["jest"]
+  },
+  "include": ["src/**/*", "tests/**/*"],
+  "exclude": ["node_modules", "lib"]
+}
